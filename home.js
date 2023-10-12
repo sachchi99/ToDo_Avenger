@@ -37,7 +37,7 @@ function addTask(e)
     {
         alert("Please Enter Some Text");
     }
-    else
+    if (uinp.value!="")
     {
         tasklist.appendChild(taskElement);
         tasklist.appendChild(cmptbtn);
